@@ -1,0 +1,14 @@
+[package]
+name = "rust-process-man"
+version = "0.1.0"
+authors = ["John Ginger <john@plural.ai>"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.12"
+schedule_recv = "0.1.0"
+time = "0.1.42"
+lazy_static = "1.2.0"
+serde_json = "1.0.38"
+serde_derive = "1.0.68"
+serde = "1.0.88"
